@@ -56,7 +56,7 @@ form ion-icon{
     margin: -10px;
     color: gray;
 }
-.search-results{
+.search-result{
     margin-top: 50px;
     width: 100%;
     display: grid;
