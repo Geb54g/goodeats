@@ -21,7 +21,12 @@ section{
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    background-color: rgb(26,26,27);
+    /* background-color: rgb(26,26,27); */
+}
+section{
+    background-image: url(../images/pexels-prince-photos-3054690.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
     width: 90%;
