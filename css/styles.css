@@ -24,7 +24,7 @@ section{
     /* background-color: rgb(26,26,27); */
 }
 section{
-    background-image: url(../images/pexels-prince-photos-3054690.jpg);
+    background-image: url(../images/pexels-pixabay-372882.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,14 +37,20 @@ section{
 .brand{
     text-align: center;
     font-size: 4rem;
-    color: whitesmoke;
+    color: white;
     margin-bottom: 30px;
+}
+p{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 form{
     width: 90%;
     max-width: 400px;
     margin: 20px auto;
-    background-color: white;
+    background-color:whitesmoke;
 }
 form input{
     width: 90%;
