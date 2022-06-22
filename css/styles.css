@@ -21,10 +21,10 @@ section{
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    /* background-color: rgb(26,26,27); */
+    background-color: rgb(26,26,27);
 }
 section{
-    background-image: url(../images/pexels-pixabay-372882.jpg);
+    background-image: url(../images/pexels-ella-olsson-1640773.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -37,11 +37,11 @@ section{
 .brand{
     text-align: center;
     font-size: 4rem;
-    color: white;
+    color:black;
     margin-bottom: 30px;
 }
 p{
-    color: white;
+    color: black;
     text-align: center;
     font-weight: bold;
     font-size: 1.8rem;
