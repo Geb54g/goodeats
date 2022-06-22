@@ -16,7 +16,7 @@ searchForm.addEventListener('submit',(e) => {
     fetchAPI();
 });
 async function fetchAPI(){
-    const baseURL = `https://api.edamam.com/search?q=pizza&app_id=${APP_ID}&app_key=${APP_key}&to=40`;
+    const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_key}&to=40`;
     const response = await fetch(baseURL);
     const data = await response.json();
     generateHTML(data.hits);
@@ -32,9 +32,11 @@ function generateHTML(results){
             <img src="${result.recipe.image}" alt="" />
             <div class="flex-container">
               <div class="title">${result.recipe.label}</div>
-              <a class="view-button" href="#">View Recipe</a>
+              <a class="view-button" href="${result.recipe.url}" target="_blank">View Recipe</a>
             </div>
             <p class="item-data">Calories:${result.recipe.calories.toFixed(2)}</p>
+            <p class="item-data">Diet Label:${result.recipe.dietLabels.length > 0 ? result.recipe.dietLabels:'No data Found'}</p>
+            <p class="item-data">Health Label:${result.recipe.healthLabels}</p>
           </div>
         `
     })
