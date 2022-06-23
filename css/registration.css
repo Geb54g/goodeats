@@ -22,7 +22,7 @@ body{
     margin: 0 auto 100px;
     padding: 45px;
     text-align: center;
-    background-color: rgba(7,40,195,0.8);
+    background-color: rgba(7, 195, 107, 0.8);
 }
 .form input{
     outline: 1;
