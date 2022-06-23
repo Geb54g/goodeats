@@ -22,7 +22,7 @@
 
 #### Application desplays a home page with a search bar that facilitate entering of any ingredient.
 
-#### After a user types in an ingredient in the search bar the app displays more than 30 recipes involve d by the ingredient entered.
+#### After a user types in an ingredient in the search bar the app displays more than 90 recipes involve d by the ingredient entered.
 
 
 ## Languages and Frameworks
