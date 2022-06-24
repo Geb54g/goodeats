@@ -3,21 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+section{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: chocolate;
+    background-image: url(../images/pexels-ella-olsson-1640773.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+
 }
 #create-account-form{
     width: 400px;
     padding: 20px;
     text-transform: uppercase;
-    background-color: white;
-}
-.title{
-    margin: 20px;
 }
 .input-group{
     margin: 20px 0; 
