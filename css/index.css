@@ -16,7 +16,6 @@ section{
 #create-account-form{
     width: 400px;
     padding: 20px;
-    text-transform: uppercase;
 }
 .input-group{
     margin: 20px 0; 
@@ -60,10 +59,10 @@ section{
     visibility: visible;
 }
 .btn{
-    width: 100%;
+    width: 50%;
     padding: 10px;
     font-size: 20px;
-    background-color: chocolate;
+    background-color:gray;
     color: white;
     text-transform: uppercase;
     border: none;
