@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    background-color: red;
+ }
+ .calories-cal .container{
+    background-color: white;
+    border-radius: 40px;
+    padding: 0px;
+    margin-top: 100px;
+ }
+ .calories-cal input{
+    background-color: #dd3b79;
+    border: none;
+    color: wheat;
+ }
+ #resultcal{
+    color: peru;
+    padding-top: 0.5rem;
+ }
+ .left-data{
+    background-color: brown;
+    opacity: 0.9;
+    text-align: center;
+    border-top-left-radius: 30px;
+    height: 100%;
+ }
