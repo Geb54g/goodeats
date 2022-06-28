@@ -5,7 +5,7 @@ body {
   font-weight: bold;
   background-color: red;
   background: url(../images/pexels-ella-olsson-1640774.jpg)
-    no-repeat center center fixed;
+  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,14 +18,14 @@ a:hover {
   font-weight: 100%;
 }
 .header {
-  background-color: green;
+  background-color: whitesmoke;
+  box-shadow: 5px 5px 5px;
 }
 .Im-Hungry {
   font-size: xx-large;
   color: black;
 }
 
-/* Dropdown menu */
 .dropdown {
   color: #255d83;
   display: inline-block;
@@ -36,6 +36,7 @@ h1 {
   font-size: 20px;
   font-weight: 900;
   color: black;
+  box-shadow: 6px 6px 6px;
 }
 
 h5 {
@@ -104,48 +105,54 @@ h5 {
 }
 #randomEatButton {
   color: red;
-  background-color: green;
+  background-color: white;
   font-weight: bolder;
+  box-shadow: 3px 4px 5px;
 }
 
 #recipeSearch {
   color:red;
-  background-color: green;
+  background-color: whitesmoke;
   font-weight: bolder;
+  box-shadow: 3px 4px 5px;
 }
 
 #ing1 {
   color:black;
-  background-color: green;
+  background-color: whitesmoke;
   font-weight: bold;
   font-weight: bold;
+  box-shadow: 3px 4px 5px;
 }
 
 #ing2 {
   color: black;
-  background-color: green;
+  background-color: whitesmoke;
   font-weight: bold;
   font-weight: bold;
 }
 
 #ing3 {
   color: black;
-  background-color: green;
+  background-color: whitesmoke;
   font-weight: bold;
   font-weight: bold;
+  box-shadow: 3px 4px 5px;
 }
 
 #ing4 {
   color: black;
-  background-color: green;
+  background-color: whitesmoke;
   font-weight: bold;
   font-weight: bold;
+  box-shadow: 3px 4px 5px;
 }
 
 #ing5 {
   color: black;
-  background-color: green;
+  background-color: whitesmoke;
   font-weight: bold;
+  box-shadow: 3px 4px 5px;
 }
 
 #navBtn {
